@@ -28,11 +28,10 @@ function clickbtn(target){
 
 function clickplus(target){
   
-  let lastLetter = textSpace.innerHTML.slice(-1);
   let targetValue = target.innerHTML;
-  console.log(lastLetter,targetValue)
+  console.log(targetValue)
   
-  if(lastLetter == "+" && targetValue == "+" ){
+  if(textSpace.innerHTML.slice(-1) == "+" && targetValue == "+" ){
     let str = textSpace.innerHTML;
     let newstr = str.slice(0,-1);
     textSpace.innerHTML = newstr + targetValue;
