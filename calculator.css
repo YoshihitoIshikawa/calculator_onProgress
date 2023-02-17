@@ -1,0 +1,20 @@
+#text-space{
+  background-color: black;
+  color: white;
+  text-align: end;
+  width: 376px;
+  height: 40px;
+  font-size: 26px;
+  margin-bottom: 3px;
+}
+
+.btn{
+  width: 90px;
+  height: 30px;
+  margin-bottom: 3px;
+}
+
+.btn-long{
+  width: 185.4px;
+  height: 30px;
+}
