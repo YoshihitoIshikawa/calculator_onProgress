@@ -29,13 +29,15 @@ function clickbtn(target){
 function clickplus(target){
   
   let targetValue = target.innerHTML;
-  console.log(targetValue)
   
   if(textSpace.innerHTML.slice(-1) == "+" && targetValue == "+" ){
     let str = textSpace.innerHTML;
     let newstr = str.slice(0,-1);
+    console.log(newstr)
     textSpace.innerHTML = newstr + targetValue;
-    
+    console.log(textSpace.innerHTML)
+    textSpace.innerHTML = textSpace.innerHTML.slice(0,-1);
+    console.log(textSpace.innerHTML)
   }
   
 }
